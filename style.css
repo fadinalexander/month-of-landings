@@ -11,12 +11,17 @@
 }
 
 .nav {
-    position: fixed;
-    z-index: 2;
+
     background-color: #333;
     max-width: 1440px;
     width: 100%;
     display: flex;
+
+}
+
+.nav_fixed {
+    position: fixed;
+    z-index: 2;
     justify-content: flex-end;
 }
 
@@ -199,10 +204,27 @@
     margin-right: 40px;
 }
 
-@import url(./blocks/bikes/bikes.css);
+@import url(/blocks/bikes/bikes.css);
+@import url(/blocks/bikes/__nav/bikes__nav.css);
 
 
-@import url(./blocks/training/training.css);
+@import url(/blocks/training/training.css);
 
 
-@import url(./blocks/footer/footer.css);
+@import url(/blocks/footer/footer.css);
+@import url(/blocks/footer/__item/footer__item.css);
+@import url(/blocks/footer/__item/_el/footer__item_el_email.css);
+@import url(/blocks/footer/__copyright/footer__copyright.css);
+
+.footer__item {
+    width: 360px;
+    height: 50px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #7D7D7D80;
+    background: transparent;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 20px;
+}
