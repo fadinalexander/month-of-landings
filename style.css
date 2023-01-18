@@ -42,22 +42,11 @@
     max-width: 1440px;
     width: 100%;
     padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    column-gap: 250px;
-}
-
-.intro__background {
-    background-image: url(images/intro__background.jpg);
-    min-width: 610px;
-    min-height: 836px;  /*убрать после добавления контейнера с липким великом*/
-    background-position: center;
-    object-fit: contain;   
+    display: flex;
 }
 
 .intro__description-container {
-    margin: 60px 0 0 120px;
+    margin: 60px 50px 0 120px;
 }
 
 .intro__btn-container {
@@ -72,7 +61,6 @@
 }
 
 .intro__btn {
-    /* font-family: sans-serif; */
     text-decoration: none;
     width: 160px;
     font-size: 14px;
@@ -81,6 +69,28 @@
     letter-spacing: 1px;
     color: #fff;
     padding: 16px 50px;
+}
+
+.intro__bike-container {
+    width: 810px;
+    height: 836px;
+    background-image: url(images/intro__background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.intro__bike {
+    z-index: 1;
+    position: sticky;
+    top: 466px;
+    box-sizing: border-box;
+    object-fit: contain;
+    height: 300px;
+    width: 440px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px 50px;
+    margin-bottom: 80px;
 }
 
 .intro__model {
@@ -118,7 +128,6 @@
 
 .quote {
     box-sizing: border-box;
-    /* margin: 120px 120px 60px 120px; */
     padding: 120px 120px 60px 120px;
     max-width: 1440px;
     width: 100%;
@@ -127,13 +136,11 @@
 }
 
 .quote__image {
-    /* object-fit: contain; */
     background-image: url(images/quote__image.jpg);
     min-width: 650px;    
 }
 
 .quote__description-container {
-    /* max-width: 470px; */
     min-height: 460px;
     display: flex;
     flex-direction: column;
