@@ -11,6 +11,8 @@
 }
 
 .nav {
+    position: fixed;
+    background-color: #333;
     max-width: 1440px;
     width: 100%;
     display: flex;
@@ -99,6 +101,11 @@
     font-weight: 400;
 }
 
+.intro__model-line {
+    margin-left: 30px;
+    color: #707070;
+}
+
 /******************************/
 /********___Section___*********/
 /******************************/
@@ -136,8 +143,7 @@
 }
 
 .quote__image {
-    background-image: url(images/quote__image.jpg);
-    min-width: 650px;    
+    margin-right: 80px;   
 }
 
 .quote__description-container {
@@ -179,7 +185,7 @@
     box-sizing: border-box;
     max-width: 1440px;
     width: 100%;
-    padding: 60px 120px;
+    padding: 60px 0 60px 120px;
 }
 
 .coverage__image-container {
