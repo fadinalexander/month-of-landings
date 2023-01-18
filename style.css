@@ -198,3 +198,11 @@
     object-fit: cover;
     margin-right: 40px;
 }
+
+@import url(./blocks/bikes/bikes.css);
+
+
+@import url(./blocks/training/training.css);
+
+
+@import url(./blocks/footer/footer.css);
