@@ -2,11 +2,12 @@
 @import url(fonts/fonts.css);
 
 .root {
-    color: #151515;
+    color: #fff;
+    background-color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .nav {
@@ -26,7 +27,7 @@
 
 .nav__link {
     text-decoration: none;
-    color: #151515;
+    color: #fff;
     font-size: 14px;
     line-height: 18px;
     font-weight: 500;
@@ -50,6 +51,7 @@
 .intro__background {
     background-image: url(images/intro__background.jpg);
     min-width: 610px;
+    min-height: 836px;  /*убрать после добавления контейнера с липким великом*/
     background-position: center;
     object-fit: contain;   
 }
@@ -70,14 +72,21 @@
 }
 
 .intro__btn {
+    /* font-family: sans-serif; */
     text-decoration: none;
     width: 160px;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 600;
+    font-weight: normal;
     letter-spacing: 1px;
     color: #fff;
-    padding: 16px 52px;
+    padding: 16px 50px;
+}
+
+.intro__model {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
 }
 
 /******************************/
@@ -90,15 +99,17 @@
     font-weight: 700;
     letter-spacing: -0.5px;
     margin: 0;
+    max-width: 460px;
 }
 
 .section__text {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
-    color: #222;
+    color: #e6e6e6;
     opacity: 0.7;
     margin: 50px 0 0 0;
+    max-width: 460px;
 }
 
 /******************************/
@@ -106,6 +117,8 @@
 /******************************/
 
 .quote {
+    box-sizing: border-box;
+    /* margin: 120px 120px 60px 120px; */
     padding: 120px 120px 60px 120px;
     max-width: 1440px;
     width: 100%;
@@ -119,11 +132,55 @@
     min-width: 650px;    
 }
 
+.quote__description-container {
+    /* max-width: 470px; */
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .quote__text {
+    margin: 0;
     max-width: 470px;
     width: 100%;
     font-size: 34px;
     line-height: 44px;
     font-weight: 600;
     letter-spacing: -0.5px;
+}
+
+.quote__author-name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.quote__author {
+    margin: 6px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/******************************/
+/********___Coverage___********/
+/******************************/
+
+.coverage {
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px 120px;
+}
+
+.coverage__image-container {
+    display: flex;
+    overflow: hidden;
+    margin: 80px 0 50px 0;
+}
+.coverage__image {
+    object-fit: cover;
+    margin-right: 40px;
 }
