@@ -1,0 +1,5 @@
+.coverage__image {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 40px;
+}
