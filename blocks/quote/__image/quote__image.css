@@ -1,3 +1,17 @@
 .quote__image {
     margin-right: 80px;   
 }
+
+@media screen and (max-width: 1115px) {
+    .quote__image {
+        object-fit: contain;
+        max-width: 500px;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .quote__image {
+        max-width: 400px;
+    }
+}

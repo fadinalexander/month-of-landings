@@ -6,10 +6,16 @@
             box-sizing: border-box;
     -o-object-fit: contain;
        object-fit: contain;
-    height: 300px;
+    object-fit: contain;
     width: 440px;
     border-radius: 20px;
     background-color: #f4f4f4;
     padding: 20px 50px;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1115px) {
+    .intro__bike {
+        width: 380px;
+    }
 }

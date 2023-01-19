@@ -4,3 +4,16 @@
     line-height: 18px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1115px) {
+    .intro__model {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .intro__model {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

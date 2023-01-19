@@ -7,3 +7,10 @@
     font-weight: 600;
     letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 845px) {
+    .quote__text {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}

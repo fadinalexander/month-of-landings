@@ -5,3 +5,9 @@
     background-position: right;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 845px) {
+    .intro__bike-container {
+        width: 500px;
+    }
+}

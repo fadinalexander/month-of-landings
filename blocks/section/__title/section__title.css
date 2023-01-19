@@ -6,3 +6,10 @@
     margin: 0;
     max-width: 460px;
 }
+
+@media screen and (max-width: 845px) {
+    .section__title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}

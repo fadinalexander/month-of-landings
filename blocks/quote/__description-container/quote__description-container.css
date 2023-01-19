@@ -11,3 +11,15 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+@media screen and (max-width: 1115px) {
+    .quote__description-container {
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .quote__description-container {
+        min-height: 250px;
+    }
+}

@@ -11,3 +11,15 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+@media screen and (max-width: 1290px) {
+    .quote {
+        padding: 120px 80px 60px 80px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .quote {
+        padding: 120px 40px 60px 40px;
+    }
+}
