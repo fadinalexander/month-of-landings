@@ -8,13 +8,13 @@
 @import url(../blocks/nav/nav__link/nav__link.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/intro__decription-container/intro__description-container.css);
-@import url(../blocks/intro/intro__btn-container/intro__btn-container.css);
-@import url(../blocks/intro/intro__btn/intro__btn.css);
-@import url(../blocks/intro/intro__bike-container/intro__bike-container.css);
-@import url(../blocks/intro/intro__bike/intro__bike.css);
-@import url(../blocks/intro/intro__model/intro__model.css);
-@import url(../blocks/intro/intro__model-line/intro__model-line.css);
+@import url(../blocks/intro/__decription-container/intro__description-container.css);
+@import url(../blocks/intro/__btn-container/intro__btn-container.css);
+@import url(../blocks/intro/__btn/intro__btn.css);
+@import url(../blocks/intro/__bike-container/intro__bike-container.css);
+@import url(../blocks/intro/__bike/intro__bike.css);
+@import url(../blocks/intro/__model/intro__model.css);
+@import url(../blocks/intro/__model-line/intro__model-line.css);
 
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__text/section__text.css);
