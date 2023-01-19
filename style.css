@@ -34,7 +34,13 @@
     font-size: 14px;
     line-height: 18px;
     font-weight: 500;
-    margin: 0 17px 0 17px;
+    margin: 0 17px;
+    transition: 0.2s;
+}
+
+.nav__link:hover {
+    opacity: 0.65;
+    transition: 0.2s;
 }
 
 /******************************/
@@ -53,7 +59,6 @@
 }
 
 .intro__btn-container {
-    box-sizing: border-box;
     max-width: 180px;
     width: 100%;
     margin: 50px 0 167px 0;
@@ -61,17 +66,39 @@
     background-color: #24b47e;
     border-radius: 4px;
     text-align: center;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+    z-index: 1;
 }
 
 .intro__btn {
     text-decoration: none;
-    width: 160px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     letter-spacing: 1px;
     color: #fff;
-    padding: 16px 50px;
+}
+
+.intro__btn-container:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #319E75;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.intro__btn-container:hover:after {
+    left: 0;
+    width: 100%;
 }
 
 .intro__bike-container {
@@ -91,12 +118,13 @@
     height: 300px;
     width: 440px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #f4f4f4;
     padding: 20px 50px;
     margin-bottom: 80px;
 }
 
 .intro__model {
+    margin: 0;
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
@@ -191,10 +219,44 @@
 
 .coverage__image-container {
     display: flex;
+    position: relative;
     overflow: hidden;
     margin: 80px 0 50px 0;
 }
 .coverage__image {
     object-fit: cover;
     margin-right: 40px;
+}
+
+.vector-bar::after {
+    position: sticky;
+    top: 356px;
+    left: 20px;
+    content: url(images/Rectangle\ 5.png);
+    z-index: 1;
+    margin-right: -100px;
+}
+
+.coverage__image_btns {
+    height: 50px;
+    display: flex;
+}
+
+.coverage__image_btn {
+    display: flex;
+    text-decoration: none;
+    background-color: #434343;
+    border-radius: 50%;
+    padding: 17px 20px;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+
+.coverage__image_btn:nth-child(2) {
+    padding: 17px 20px 17px 23px;
+}
+
+.coverage__image_btn:hover {
+    opacity: 0.6;
+    transition: 0.2s;
 }
