@@ -1,0 +1,9 @@
+.nav__links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 28px 103px 28px 0;
+}

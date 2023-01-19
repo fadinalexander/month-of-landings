@@ -1,0 +1,17 @@
+.section__text {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #e6e6e6;
+    opacity: 0.7;
+    margin: 50px 0 0 0;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 845px) {
+    .section__text {
+        margin: 30px 0 0 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,14 @@
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #333;
+    max-width: 1440px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}

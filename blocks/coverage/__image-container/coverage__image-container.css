@@ -1,0 +1,8 @@
+.coverage__image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: 80px 0 50px 0;
+}
