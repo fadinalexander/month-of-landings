@@ -1,0 +1,12 @@
+.app-links__setup {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.app-links__setup:hover {
+    opacity: .65;
+}

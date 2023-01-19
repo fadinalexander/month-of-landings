@@ -1,4 +1,25 @@
-.footer__item {
-    border: 0;
-    background: transparent;
+   .footer__item {
+        width: 360px;
+        height: 50px;
+        margin-left: 120px;
+        margin-bottom: 100px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border: 1px solid #7D7D7D80;
+        background: transparent;
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 20px;
+        color: #fff;
+        opacity: .7;
+}
+
+.footer__item:hover::placeholder{
+        color: #fff;
+}
+
+.footer__item:focus {
+        outline: 0;
+        outline-offset: 0;
+        border: 1px solid #7D7D7D;
 }

@@ -1,0 +1,11 @@
+.bikes__nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.bikes__nav-link:hover {
+    opacity: .65;
+}

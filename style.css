@@ -1,6 +1,36 @@
 @import url(vendor/normalize.css);
 @import url(fonts/fonts.css);
 
+@import url(./blocks/bikes/bikes.css);
+@import url(./blocks/bikes/__allign/bikes__allign.css);
+@import url(./blocks/bikes/__links-list/bikes__links-list.css);
+@import url(./blocks/bikes/__list/bikes__list.css);
+@import url(./blocks/bikes/__nav-link/bikes__nav-link.css);
+@import url(./blocks/bikes/__nav-link/_switch/bikes__nav-link_switch_disabled.css);
+@import url(./blocks/bikes/__cards/bikes__cards.css);
+
+@import url(./blocks/bike/bike.css);
+@import url(./blocks/bike/__card/bike__card.css);
+@import url(./blocks/bike/__image/bike__image.css);
+@import url(./blocks/bike/__caption/bike__caption.css);
+
+
+
+@import url(./blocks/training/training.css);
+@import url(./blocks/training/__description/training__description.css);
+@import url(./blocks/training/__image/training__image.css);
+
+@import url(./blocks/app-links/app-links.css);
+@import url(./blocks/app-links/__setup/app-links__setup.css);
+
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/__item/footer__item.css);
+@import url(./blocks/footer/__item/_el/footer__item_el_email.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+
+
 .root {
     color: #fff;
     background-color: #333;
@@ -8,6 +38,9 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 .nav {
@@ -202,29 +235,4 @@
 .coverage__image {
     object-fit: cover;
     margin-right: 40px;
-}
-
-@import url(/blocks/bikes/bikes.css);
-@import url(/blocks/bikes/__nav/bikes__nav.css);
-
-
-@import url(/blocks/training/training.css);
-
-
-@import url(/blocks/footer/footer.css);
-@import url(/blocks/footer/__item/footer__item.css);
-@import url(/blocks/footer/__item/_el/footer__item_el_email.css);
-@import url(/blocks/footer/__copyright/footer__copyright.css);
-
-.footer__item {
-    width: 360px;
-    height: 50px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    border: 1px solid #7D7D7D80;
-    background: transparent;
-    font-family: inherit;
-    font-size: 13px;
-    font-weight: 500;
-    padding-left: 20px;
 }

@@ -1,0 +1,7 @@
+.training__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    width: 100%;
+    justify-content: space-between;
+}

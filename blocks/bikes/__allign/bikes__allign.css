@@ -1,0 +1,8 @@
+.bikes__allign {
+    display: flex;
+    padding: 0 120px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
