@@ -1,8 +1,9 @@
 .vector-bar::before {
     position: sticky;
-    top: 356px;
+    display: flex;
+    top: 345px;
     left: 20px;
-    content: url(images/Rectangle\ 5.png);
+    content: url(../../images/Rectangle.png);
     z-index: 1;
     margin-right: -100px;
 }

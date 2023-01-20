@@ -14,6 +14,8 @@
     transition: all 0.3s ease;
     border: none;
     z-index: 1;
+    grid-column: 1;
+    grid-row: 3;
 }
 
 .intro__btn-container:after {
@@ -41,10 +43,13 @@
         margin: 50px 0 100px;
     }
 }
-/*
+
 @media screen and (max-width: 767px) {
     .intro__btn-container {
         grid-area: button;
+        margin: 0 18px 40px;
+        max-width: none;
+        width: auto;
+        
     }
 }
-*/

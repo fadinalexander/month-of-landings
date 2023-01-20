@@ -3,6 +3,8 @@
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
+    grid-column: 1;
+    grid-row: 4;
 }
 
 @media screen and (max-width: 1115px) {
@@ -15,5 +17,11 @@
     .intro__model {
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__model {
+        display: none;
     }
 }
