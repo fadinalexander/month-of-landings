@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+    .burger {
+        position: absolute;
+        align-items: center;
+        cursor: pointer;
+        top: 28px;
+        right: 18px;
+        height: 20px;
+        width: 22px;
+        }
+        
+        .burger:before {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 3px;
+            background: #fff;
+            box-shadow: 0 8px 0 #fff;
+            transform: translateY(-8px);
+        }
+        
+        .burger:after {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 3px;
+            background: #fff;
+            transform: translateY(8px);
+        }
+}

@@ -1,0 +1,26 @@
+.quote__image {
+    margin-right: 80px;   
+}
+
+@media screen and (min-width: 1115px) {
+    .quote__image {
+        object-fit: contain;
+        max-width: 500px;
+        margin-right: 60px;
+    }
+}
+
+
+@media screen and (min-width: 845px) {
+    .quote__image {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .quote__image {
+        object-fit:cover;
+        max-width: 767px;
+        width: 100%;
+        margin: 0 18px;
+    }
+}

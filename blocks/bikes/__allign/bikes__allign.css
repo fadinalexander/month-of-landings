@@ -1,0 +1,20 @@
+.bikes__allign {
+    display: flex;
+    padding: 0 120px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1290px) {
+    .bikes__allign {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .bikes__allign {
+        padding: 0 40px;
+    }
+}

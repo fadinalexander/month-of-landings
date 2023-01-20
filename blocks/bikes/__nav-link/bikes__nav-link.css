@@ -1,0 +1,17 @@
+.bikes__nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.bikes__nav-link:hover {
+    opacity: .65;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}

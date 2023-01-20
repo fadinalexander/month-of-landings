@@ -1,0 +1,21 @@
+.intro__bike {
+    z-index: 1;
+    position: sticky;
+    top: 466px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -o-object-fit: contain;
+       object-fit: contain;
+    object-fit: contain;
+    width: 440px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    padding: 20px 50px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1115px) {
+    .intro__bike {
+        width: 380px;
+    }
+}

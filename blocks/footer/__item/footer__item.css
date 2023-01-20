@@ -1,0 +1,44 @@
+   .footer__item {
+        width: 360px;
+        height: 50px;
+        margin-left: 120px;
+        margin-bottom: 100px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border: 1px solid #7D7D7D80;
+        background: transparent;
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 20px;
+        color: #fff;
+        opacity: .7;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+}
+
+.footer__item:hover::placeholder{
+        color: #fff;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+}
+
+.footer__item:focus {
+        outline: 0;
+        outline-offset: 0;
+        border: 1px solid #7D7D7D;
+        
+}
+
+@media screen and (max-width: 1290px) {
+        .footer__item {
+            margin: 0 0 100px 80px;
+        }
+}
+
+@media screen and (max-width: 845px) {
+        .footer__item {
+            margin: 0 0 50px 40px;
+        }
+}

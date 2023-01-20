@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Путешествия по России</title>
-  <base target="_blank">
+  <link rel="stylesheet" href="pages/index.css">
+  <title lang="en">Road club</title>
+  <meta name="description" content="#">
+  <meta name="keywords" content="#">
+  <meta name="author" content="Svyat and Alexander">
 </head>
 
 <body class="root">
-    <nav class="nav">
+    <nav class="nav burger">
         <ul class="nav__links">
             <li><a class="nav__link" href="#coverage">Покрытия и градиенты</a></li>
             <li><a class="nav__link" href="#bikes">Велосипеды</a></li>
@@ -38,6 +40,7 @@
     </section>
 
     <section class="quote">
+
         <img class="quote__image" src="images/quote__image.jpg" alt="">
 
         <div class="quote__description-container">
@@ -58,36 +61,108 @@
         </p>
 
         <div class="coverage__image-container">
+          <div class="vector-bar"></div>
           <img class="coverage__image" src="images/coverage__highway.jpg" alt="горный серпантин">
 
           <img class="coverage__image" src="images/coverage__gravel.jpg" alt="лесная тропа">
-
         </div>
 
-        <div class="coverage__image_btns">
-            <a class="coverage__image_btn" href="#"></a>
-        </div>
+        
+
+        <nav class="coverage__image-btns">
+            <a class="coverage__image-btn" href="#">
+              <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
+              <path d="M9 1 2 9l7 8" stroke="#fff" stroke-width="2"/></svg>
+            </a>
+            <a class="coverage__image-btn" href="#">
+              <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
+              <path d="m1 17 7-8-7-8" stroke="#fff" stroke-width="2"/></svg>
+            </a>
+        </nav>
     </section>
 
+    
+    
+    
+    
     <section class="bikes" id="bikes">
+      <div class="bikes__allign">
         <h2 class="section__title">Велосипеды</h2>
+        <nav>
+          <ul class="bikes__links-list">
+              <li class="bikes__list"><a class="bikes__nav-link" href="#">Шоссе</a></li>
+              <li class="bikes__list"><a class="bikes__nav-link bikes__nav-link_switch_disabled" href="#">Грэвел</a></li>
+              <li class="bikes__list"><a class="bikes__nav-link bikes__nav-link_switch_disabled" href="#">TT</a></li>
+          </ul>
+        </nav>
+      </div>
+        
+        <ul class="bikes__cards">
+          <li class="bike">
+            <figure class="bike__card">
+              <img class="bike__image"
+              src="./images/Cervelo-Caledonia-5.jpg"
+              alt="Изображение велосипеда">
+              <figcaption class="bike__caption">Cervelo Caledonia-5</figcaption>
+            </figure>
+          </li>
+          <li class="bike">
+            <figure class="bike__card">
+              <img class="bike__image"
+              src="./images/Cannondale-Systemsix-Himode.jpg"
+              alt="Изображение велосипеда">
+              <figcaption class="bike__caption">Cannondale Systemsix Himod</figcaption>
+            </figure>
+          </li>
+          <li class="bike">
+            <figure class="bike__card">
+              <img class="bike__image"
+              src="./images/Trek-Domane-SL-7.jpg"
+              alt="Изображение велосипеда">
+              <figcaption class="bike__caption">Trek Domane SL-7</figcaption>
+            </figure>
+          </li>
+        </ul>
+        
     </section>
 
+   
+   
+   
+   
+   
     <section class="training" id="training">
-        <h2 class="section__title">Тренировки</h2>
-        <p class="section__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом 
+      <div class="training__description">
+        <div>
+          <h2 class="section__title">Тренировки</h2>
+          <p class="section__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом 
             Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение 
             позволит построить тренировочный план.
-        </p>
-
-        <div class="trainig__image"></div>
-
-        <ul class="app-links">
-            <li class="app-link"><a href="#">Strava</a></li>
-            <li class="app-link"><a href="#">Komoot</a></li>
+          </p>
+        </div>
+        
+         <ul class="app-links">
+            <li><a class="app-links__setup" href="#">Strava</a></li>
+            <li><a class="app-links__setup" href="#">Komoot</a></li>
         </ul>
+      </div>
+
+          <img class="training__image" src="./images/training__image.jpg" alt="Извилистая дорога">
+
     </section>
 
-    <footer class="footer"></footer>
+    
+    
+    
+    
+    
+    <footer class="footer">
+      <p class="footer__title">Подпишитесь на рассылку —</p>
+      <input type="email" id="email" name="email"
+      class="footer__item footer__item_el_email" placeholder="Ваш e-mail">
+
+      <p lang="en" class="footer__copyright">&copy; Road Club 2021</p>
+
+    </footer>
 </body>
 </html>
