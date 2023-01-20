@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    .item-bike {
+        width: 114px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border: 1px solid #7D7D7D80;
+        background: transparent;
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 20px;
+        color: #fff;
+        opacity: .7;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+}
+}

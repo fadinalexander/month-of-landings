@@ -1,3 +1,11 @@
 .bike__card {
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .bike__card {
+        padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    }
+}

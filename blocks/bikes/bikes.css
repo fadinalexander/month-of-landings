@@ -11,3 +11,10 @@
         min-height: 555px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .bikes {
+        padding: 40px 18px;
+        box-sizing: border-box;
+    }
+}

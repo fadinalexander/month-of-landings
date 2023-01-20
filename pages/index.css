@@ -39,6 +39,7 @@
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__allign/bikes__allign.css);
+@import url(../blocks/item-bike/item-bike.css);
 @import url(../blocks/bikes/__links-list/bikes__links-list.css);
 @import url(../blocks/bikes/__list/bikes__list.css);
 @import url(../blocks/bikes/__nav-link/bikes__nav-link.css);
