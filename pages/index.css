@@ -2,13 +2,14 @@
 @import url(../fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/__section/_title/root__section_title.css);
+@import url(../blocks/root/__section/_text/root__section_text.css);
+@import url(../blocks/underline/underline.css);
+@import url(../blocks/burger/burger.css);
 
 @import url(../blocks/nav/nav.css);
-@import url(../blocks/burger/burger.css);
 @import url(../blocks/nav/nav__links/nav__links.css);
 @import url(../blocks/nav/nav__link/nav__link.css);
-
-@import url(../blocks/underline/underline.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/heading/heading.css);
@@ -20,9 +21,6 @@
 @import url(../blocks/intro/__model/intro__model.css);
 @import url(../blocks/intro/__model-line/intro__model-line.css);
 
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__text/section__text.css);
-
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__image/quote__image.css);
 @import url(../blocks/quote/__description-container/quote__description-container.css);
@@ -31,6 +29,7 @@
 @import url(../blocks/quote/__author/quote__author.css);
 
 @import url(../blocks/coverage/coverage.css);
+@import url(../blocks/svg/svg.css);
 @import url(../blocks/coverage/__image-container/coverage__image-container.css);
 @import url(../blocks/coverage/__image/coverage__image.css);
 @import url(../blocks/vector-bar/vector-bar.css);
@@ -39,9 +38,9 @@
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__allign/bikes__allign.css);
-@import url(../blocks/item-bike/item-bike.css);
 @import url(../blocks/bikes/__links-list/bikes__links-list.css);
 @import url(../blocks/bikes/__list/bikes__list.css);
+@import url(../blocks/item-bike/item-bike.css);
 @import url(../blocks/bikes/__nav-link/bikes__nav-link.css);
 @import url(../blocks/bikes/__nav-link/_switch/bikes__nav-link_switch_disabled.css);
 @import url(../blocks/bikes/__cards/bikes__cards.css);
@@ -51,15 +50,11 @@
 @import url(../blocks/bike/__image/bike__image.css);
 @import url(../blocks/bike/__caption/bike__caption.css);
 
-
-
 @import url(../blocks/training/training.css);
-@import url(../blocks/training/__description/training__description.css);
 @import url(../blocks/training/__image/training__image.css);
 
 @import url(../blocks/app-links/app-links.css);
 @import url(../blocks/app-links/__setup/app-links__setup.css);
-
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);

@@ -1,4 +1,4 @@
-.section__title {
+.root__section_title {
     font-size: 55px;
     line-height: 60px;
     font-weight: 700;
@@ -10,19 +10,17 @@
 }
 
 @media screen and (max-width: 845px) {
-    .section__title {
+    .root__section_title {
         font-size: 45px;
         line-height: 50px;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .section__title {
+@media screen and (max-width: 745px) {
+    .root__section_title {
         min-width: 284px;
-        margin: 0 18px;
-        grid-area: title;
         font-size: 32px;
         line-height: 40px;
-        font-weight: 700;
+        grid-row: 1;
     }
 }

@@ -18,10 +18,12 @@
 @media screen and (max-width: 767px) {
     .intro__bike-container {
         grid-area: image;
+        grid-row: 2;
         width: 254px;
         height: 348px;
-        margin-left: 48px;
+        margin-left: 30px;
         margin-top: 40px;
+        margin-bottom: 40px;
         background-size: cover;
     }
 }

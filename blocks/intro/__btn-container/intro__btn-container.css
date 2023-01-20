@@ -40,16 +40,16 @@
 
 @media screen and (max-width: 1115px) {
     .intro__btn-container {
-        margin: 50px 0 100px;
+        margin: 50px 0 130px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro__btn-container {
         grid-area: button;
-        margin: 0 18px 40px;
+        margin: 40px 18px 40px;
         max-width: none;
         width: auto;
-        
+
     }
 }

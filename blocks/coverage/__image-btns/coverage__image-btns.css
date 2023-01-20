@@ -4,3 +4,13 @@
     display: -ms-flexbox;
     display: flex;
 }
+
+@media screen and (max-width: 745px) {
+    .coverage__image-btns {
+        height: 24px;
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: end;
+        align-self: center;
+    }
+}

@@ -17,3 +17,13 @@
         padding: 60px 0 60px 40px;
     }
 }
+
+@media screen and (max-width: 745px) {
+    .coverage {
+        padding: 80px 18px 40px 18px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 175px 90px;
+        row-gap: 40px;
+    }
+}

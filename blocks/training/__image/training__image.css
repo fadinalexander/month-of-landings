@@ -1,16 +1,22 @@
 .training__image {
+    object-fit: contain;
     max-width: 580px;
+    min-width: 284px;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1 / span 4;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1184px) {
     .training__image {
-        object-fit: contain;
-        max-height: 350px;
+        grid-row: 1 / span 2;
     }
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 745px) {
     .training__image {
-        max-height: 283px;
+        width: 284px;
+        grid-column: 1;
+        grid-row: 2;
     }
 }

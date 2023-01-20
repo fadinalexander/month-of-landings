@@ -4,10 +4,10 @@
     width: 100%;
     padding: 95px 0 0 120px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, auto));
+    grid-template-columns: minmax(230px, 460px) minmax(300px, 810px);
     grid-template-rows: repeat(5, fit-content);
     column-gap: 50px;
-    /*minmax(230px, 460px) minmax(300px, 810px)*/
+    
 }
 
 @media screen and (max-width: 1290px) {
@@ -23,11 +23,14 @@
     }
 }
 
-
 @media screen and (max-width: 767px) {
     .intro {
+        /* padding-top: 74px; */
+        padding: 40px 18px;
+        display: grid;
+        grid-template-rows: 500px 500px 500px 500px;
         position: relative;
-        padding: 74px 0 0;
+        /* padding: 74px 0 0; */
         grid-template-rows: auto auto auto auto;
         grid-template-areas: 
             'title'
@@ -39,6 +42,6 @@
         grid-template-columns: none;
         max-width: 767px;
         width: 100%;
-            
+
     }
 }

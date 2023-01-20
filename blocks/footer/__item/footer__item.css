@@ -42,3 +42,10 @@
             margin: 0 0 50px 40px;
         }
 }
+
+@media screen and (max-width:745px) {
+        .footer__item {
+                margin: 0 0 99px 18px;
+                width: 284px;
+        }
+}

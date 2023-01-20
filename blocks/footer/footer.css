@@ -8,3 +8,9 @@
     align-self: baseline;
     background-color: #2f2f2f;
 }
+
+@media screen and (max-width:745px) {
+    .footer {
+        padding-top: 60px;
+    }
+}

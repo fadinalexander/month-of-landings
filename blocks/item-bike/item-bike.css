@@ -1,5 +1,11 @@
+.item-bike {
+    position: relative;
+    visibility: hidden;
+}
+
 @media screen and (max-width: 767px) {
     .item-bike {
+        visibility: visible;
         width: 114px;
         height: 30px;
         margin-bottom: 20px;

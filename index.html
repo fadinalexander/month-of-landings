@@ -20,8 +20,8 @@
     </nav>
 
     <section class="intro">
-          <h1 class="section__title heading">Шоссе, ТТ и&nbsp;Грэвел</h1>
-          <p class="section__text">Триатлонные старты, горные серпантины или грейвел заезды по 
+          <h1 class="root__section_title heading">Шоссе, ТТ и &nbsp;Грэвел</h1>
+          <p class="root__section_text">Триатлонные старты, горные серпантины или грейвел заезды по 
             живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться 
             в путь.
           </p>
@@ -52,8 +52,9 @@
     </section>
 
     <section class="coverage" id="coverage">
-        <h2 class="section__title">Шоссе</h2>
-        <p class="section__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: 
+        <h2 class="root__section_title">Шоссе</h2>
+
+        <p class="root__section_text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: 
             будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и 
             самостоятельно.
         </p>
@@ -69,11 +70,11 @@
 
         <nav class="coverage__image-btns">
             <a class="coverage__image-btn" href="#">
-              <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="7" viewBox="0 0 10 18">
+              <svg class="svg" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
               <path d="M9 1 2 9l7 8" stroke="#fff" stroke-width="2"/></svg>
             </a>
             <a class="coverage__image-btn" href="#">
-              <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="7" viewBox="0 0 10 18">
+              <svg class="svg" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18">
               <path d="m1 17 7-8-7-8" stroke="#fff" stroke-width="2"/></svg>
             </a>
         </nav>
@@ -86,10 +87,9 @@
     <section class="bikes" id="bikes">
       <div class="underline"></div>
       <div class="bikes__allign">
-        <h2 class="section__title">Велосипеды</h2>
-        
+        <h2 class="root__section_title">Велосипеды</h2>
+
         <nav>
-          
           <ul class="bikes__links-list">
               <li class="bikes__list"><a class="bikes__nav-link" href="#">Шоссе</a></li>
               <li class="bikes__list"><a class="bikes__nav-link bikes__nav-link_switch_disabled" href="#">Грэвел</a></li>
@@ -97,6 +97,7 @@
           </ul>
         </nav>
       </div>
+
       <select class="item-bike" name="bike" id="bike">
         <option value="Road">Шоссе</option>
       </select>
@@ -110,6 +111,7 @@
               <figcaption class="bike__caption">Cervelo Caledonia-5</figcaption>
             </figure>
           </li>
+
           <li class="bike">
             <figure class="bike__card">
               <img class="bike__image"
@@ -118,6 +120,7 @@
               <figcaption class="bike__caption">Cannondale Systemsix Himod</figcaption>
             </figure>
           </li>
+
           <li class="bike">
             <figure class="bike__card">
               <img class="bike__image"
@@ -130,40 +133,28 @@
         
     </section>
 
-   
-   
-   
-   
-   
     <section class="training" id="training">
-      <div class="training__description">
-        <div>
-          <h2 class="section__title">Тренировки</h2>
-          <p class="section__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом 
+          <h2 class="root__section_title">Тренировки</h2>
+
+          <p class="root__section_text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом 
             Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение 
             позволит построить тренировочный план.
           </p>
-        </div>
         
          <ul class="app-links">
-            <li><a class="app-links__setup" href="#">Strava</a></li>
-            <li><a class="app-links__setup" href="#">Komoot</a></li>
+            <li><a class="app-links__setup" href="https://www.strava.com" target="_blank">Strava</a></li>
+            <li><a class="app-links__setup" href="https://www.komoot.com" target="_blank">Komoot</a></li>
         </ul>
-      </div>
 
           <img class="training__image" src="./images/training__image.jpg" alt="Извилистая дорога">
 
     </section>
 
-    
-    
-    
-    
-    
     <footer class="footer">
       <p class="footer__title">Подпишитесь на рассылку —</p>
+
       <input type="email" id="email" name="email"
-      class="footer__item footer__item_el_email" placeholder="Ваш e-mail">
+      class="footer__item" placeholder="Ваш e-mail">
 
       <p lang="en" class="footer__copyright">&copy; Road Club 2021</p>
 
